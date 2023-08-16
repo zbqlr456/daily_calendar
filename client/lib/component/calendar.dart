@@ -15,6 +15,14 @@ class _CalendarState extends State<Calendar> {
       focusedDay: DateTime.now(),
       firstDay: DateTime(1900),
       lastDay: DateTime(3000),
+      headerStyle: HeaderStyle(
+        formatButtonVisible: false,
+        titleCentered: true,
+        titleTextStyle: TextStyle(
+          fontWeight: FontWeight.w700,
+          fontSize: 16.0,
+        )
+      ),
     );
   }
 }

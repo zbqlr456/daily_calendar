@@ -13,7 +13,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('calendar'),
+        title: Text('달력'),
       ),
       body: SafeArea(
         child: Column(
