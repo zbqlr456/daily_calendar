@@ -1,4 +1,5 @@
 import 'package:client/component/calendar.dart';
+import 'package:client/component/daily_circle.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -17,7 +18,10 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: SafeArea(
         child: Column(
-          children: [Calendar()],
+          children: [
+            Calendar(),
+            DailyCircle(),
+          ],
         ),
       ),
     );

@@ -15,6 +15,7 @@ dependencies:
   table_calendar: ^3.0.9
   intl: ^0.18.1
   drift: ^2.11.0
+  flutter_riverpod: ^2.3.7
 
 
 dev_dependencies:

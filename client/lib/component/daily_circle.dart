@@ -10,8 +10,11 @@ class DailyCircle extends StatefulWidget {
 class _DailyCircleState extends State<DailyCircle> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-
+    return ClipOval(
+      child: Container(
+        width: 100.0,
+        height: 100.0,
+      ),
     );
   }
 }
