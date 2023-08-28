@@ -1,3 +1,4 @@
+import 'package:client/color/colors.dart';
 import 'package:flutter/material.dart';
 
 class DailyCircle extends StatefulWidget {
@@ -12,8 +13,12 @@ class _DailyCircleState extends State<DailyCircle> {
   Widget build(BuildContext context) {
     return ClipOval(
       child: Container(
-        width: 100.0,
-        height: 100.0,
+        width: 320.0,
+        height: 320.0,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(50),
+          color: PRIMARY_COLOR
+        ),
       ),
     );
   }
