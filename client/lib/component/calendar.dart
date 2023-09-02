@@ -38,8 +38,11 @@ class _CalendarState extends State<Calendar> {
       calendarStyle: CalendarStyle(
         isTodayHighlighted: false,
         defaultDecoration: BoxDecoration(
-          color: Colors.grey[200],
+          color: PRIMARY_COLOR,
         ),
+        weekendDecoration: BoxDecoration(
+          color: Colors.redAccent,
+        )
       ),
     );
   }
